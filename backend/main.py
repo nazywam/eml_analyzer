@@ -46,7 +46,7 @@ def create_app():
             "frame-ancestors": ["'self'"],
             "img-src": ["'self'", "data:", "t0.gstatic.com", "www.google.com"],
             "object-src": ["'none'"],
-            "script-src": ["'self'"],
+            "script-src": ["'self'", "'wasm-unsafe-eval'"],
             "script-src-attr": ["'none'"],
             "style-src": ["'self'", "https:", "'unsafe-inline'"],
             "upgrade-insecure-requests": [],
